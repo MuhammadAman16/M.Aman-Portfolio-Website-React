@@ -1,0 +1,92 @@
+
+.about-container{
+        position: absolute;
+           right: 0;
+            top: 50%;
+            transform: translateY(-40%);
+            width: 45%;
+            vertical-align: middle;
+            display: table-cell;
+            min-height: 90%;
+            
+        
+            h1 {
+                font-size: 53px;
+                font-family: 'Coolvetica';
+                font-weight: 400;
+                color: #ff5823;
+                position: relative;
+                margin-top: 0;
+                margin-bottom: 30px;
+        
+            }
+        
+            h2 {
+                font-size: 20px;
+            }
+        
+            p {
+                font-size: 13px;
+                color: #1f2235;
+                font-family: sans-serif;
+                font-weight: 300;
+                min-width: fit-content;
+                animation: pulse 1s;
+        
+                &:nth-of-type(1) {
+                    animation-delay: 1.1s;
+        
+                }
+        
+                &:nth-of-type(2) {
+                    animation-delay: 1.2s;
+        
+                }
+        
+                &:nth-of-type(3) {
+                    animation-delay: 1.3s;
+        
+                }
+              
+            }
+}
+
+.text-animate-hover {
+            &:hover {
+                color: #1f2235;
+            }
+        }
+        .text-zones{
+        #resume-btn{
+            float: none;
+            position: relative;
+            text-align: center;
+            border-radius: 25px;
+
+        }
+        .bold-about{
+            font-weight: 700;
+        }
+            li{
+                list-style: none;
+            }
+   }  
+   @media screen and (max-width: 576px) {
+    
+}
+ 
+
+  @media screen and (max-width: 920px) {
+            .about-container{
+                    padding: 20px;
+                    width: 100%;
+                    height: 580px;
+                    display: block;
+                    position: relative;
+                    transform: none;
+            }
+
+.containers about-page{
+    height: auto;
+}
+        }

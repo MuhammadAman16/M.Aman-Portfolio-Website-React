@@ -1,0 +1,23 @@
+.footers{
+    color: #ff5823;
+    font-size: 1.05rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin: 5px 0;
+    padding: 0;
+  
+     
+}
+@media screen and (max-width: 600px) {
+    .footers{position: initial;}
+    
+}
+@media screen and (max-width: 900px) {
+    .footers {
+        position: relative;
+        bottom: 0px;
+    }
+
+}
